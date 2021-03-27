@@ -3,6 +3,16 @@
     font-family: 'Verdana', Geneva, sans-serif;
 }
 
+a:link {
+	color: 0x8B1A55;
+}
+
+a:visited {
+	color: 0x8B1A55;
+}
+
+
+
 .gray {
     color: gray;
 }
