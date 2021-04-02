@@ -5,14 +5,8 @@
     margin:auto;
 }
 
-body {
-	min-width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-footer {
-	margin-top: auto;
+h1 {
+  padding-top: 25px;
 }
 
 .topnav .icon {
@@ -59,4 +53,9 @@ a:active {
 
 .gray {
     color: gray;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
 }
