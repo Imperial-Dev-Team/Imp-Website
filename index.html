@@ -10,7 +10,17 @@
 * {
     box-sizing: border-box;
 }
-    
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
 #myVideo {
   position: fixed;
   right: 0;
@@ -19,23 +29,19 @@
   min-height: 100%;
 }
 </style>
-
-<body class="gray">
-    <div class="topnav">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="members.html">Members</a>
-        <a href="https://imperialempire.fandom.com/wiki/Imperial_Empire_Wiki">Wiki</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <div class="overlay">
+        <p> <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="members.html">Members</a>
+            <a href="https://imperialempire.fandom.com/wiki/Imperial_Empire_Wiki">Wiki</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a></p>
+        <form>
+            <p><footer>© Copyright 2021 Imperial Development Team - All Rights Reserved</footer></p>
+        </form>
     </div>
-    <br>
-    <br>
     <video autoplay muted loop id="myVideo">
         <source src="movie.mp4" type="video/mp4">
       </video>
-    <br><br><br><br><br><br><br><br><br>
-    <footer>© Copyright 2021 Imperial Development Team - All Rights Reserved</footer>
-</body>
