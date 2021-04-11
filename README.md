@@ -1,5 +1,4 @@
 # Imperial officel Website
-https://imperial-dev-team.github.io/Imp-Website/Index.html <br/>
 This website was created using github.io - https://pages.github.com
 
 # How To Contribute
